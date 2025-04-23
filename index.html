@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>写経用コード</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!----------------------
+*ヘッダー
+------------------------->
+    <header>
+        <div class="inner">
+            <h1>Cafe Ratta</h1>
+            <nav>
+                <ul>
+                    <li>about</li>
+                    <li>news</li>
+                    <li>menu</li>
+                    <li>access</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!----------------------
+*メインビジュアル
+------------------------->
+    <section class="mainvisual">
+        <h2>森の<br>癒しのカフェ</h2>
+    </section>
+
+    <!----------------------
+*about
+------------------------->
+    <section class="about">
+        <div class="inner">
+            <h2>about</h2>
+            <p>
+                Cafe Rattaは秦野市ぽんぽこ山にある<br>
+                小さな森のカフェです。<br>
+                美味いものしか知らない、店主のドブネズミが自慢のしっぽをふるって<br>
+                美味しいドリンクと軽食を提供いたします。<br>
+                「これ食べたい！」という食いしん坊なたぬきの皆さんの声にもお応えしますので
+                お気軽にお声がけください。
+            </p>
+        </div>
+    </section>
+    <!----------------------
+*news
+------------------------->
+    <section class="news">
+        <div class="inner">
+            <h2>森のニュース</h2>
+            <div class="line"></div>
+            <ul>
+                <li><a href="#"><span>2020.9.22</span> 今日の山</a></li>
+                <li><a href="#"><span>2020.9.24</span> 今日の森</a></li>
+                <li><a href="#"><span>2020.9.28</span> 今日の山</a></li>
+                <li><a href="#"><span>2020.10.03</span> 秋のメニュー</a></li>
+                <li><a href="#"><span>2020.10.12</span> ぽんぽこ祭りのお知らせ</a></li>
+            </ul>
+            <a href="#" class="news-btn">森のニュース一覧</a>
+        </div>
+    </section>
+    <!----------------------
+*menu
+------------------------->
+    <section class="menu">
+        <div class="inner">
+            <h2>menu</h2>
+            <div class="line"></div>
+            <div class="menu-box">
+                <!--1列目-->
+                <div class="menu-card-wrapper">
+                    <div class="menu-card">
+                        <img src="images/cocoa.jpg" alt="ココア">
+                        <h3>Cocoa</h3>
+                    </div>
+                    <div class="menu-card">
+                        <img src="images/coffee-ga232e740b_640.jpg" alt="コーヒー">
+                        <h3>Coffee</h3>
+                    </div>
+                    <div class="menu-card">
+                        <img src="images/coffeeset.jpg" alt="コーヒーセット">
+                        <h3>Coffee set</h3>
+                        <h4>with Cake</h4>
+                    </div>
+                </div>
+                <!--2列目-->
+                <div class="menu-card-wrapper">
+                    <div class="menu-card">
+                        <img src="images/tea.jpg" alt="紅茶">
+                        <h3>Tea</h3>
+                    </div>
+                    <div class="menu-card">
+                        <img src="images/juice.jpg" alt="森のジュース">
+                        <h3>fresh juice</h3>
+                        <h4>*Daily*</h4>
+                    </div>
+                    <div class="menu-card">
+                        <img src="images/lightfood.jpg" alt="軽食">
+                        <h3>light meal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------
+*Access
+------------------------->
+    <section class="access">
+        <div class="inner">
+            <h2>access</h2>
+            <div class="Line"></div>
+            <!--Googlemap埋め込み-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!4v1745325941963!6m8!1m7!1sP54NaC6xDUEv_52aJf3PSA!2m2!1d35.38570102085095!2d139.2368591139613!3f215.99298978261305!4f-20.87916690550152!5f0.7820865974627469"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!----------------------
+*contact
+------------------------->
+    <section class="contact">
+        <div class="inner">
+            <h2>contact</h2>
+            <div class="line"></div>
+
+            <form id="contact-form" action="">
+                <label for="form-name">お名前</label>
+                <p><input id="form-name" type="text" name="" placeholder="入力してください" required=""></p>
+
+                <label for="form-mail">メールアドレス</label>
+                <p><input id="form-mail" type="email" name="" placeholder="入力してください" required=""></p>
+
+                <label for="form-detail">お問い合わせ内容</label>
+                <p><textarea id="form-detail" name="" placeholder="入力してください" required=""></textarea></p>
+
+                <p><button type="submit" class="contact-btn" name="button" value="送信">ぽちっと送信</button></p>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
